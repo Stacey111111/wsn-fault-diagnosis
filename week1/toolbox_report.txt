@@ -1,0 +1,21 @@
+Environment check  -  06-Oct-2026 01:29:02
+MATLAB version     : 26.1.0.3251617 (R2026a) Update 2
+Computer           : PCWIN64
+
+Toolbox                                    Installed  Licensed   Needed for
+Statistics and Machine Learning Toolbox    yes        yes        REQUIRED
+Signal Processing Toolbox                  yes        yes        optional
+Wavelet Toolbox                            yes        yes        optional
+Deep Learning Toolbox                      yes        yes        optional
+Parallel Computing Toolbox                 yes        yes        optional
+
+Functional smoke test (Fisher iris data, 5-fold CV):
+  PASS  fitctree      (decision tree)    CV error = 0.060
+  PASS  fitcknn       (k-NN)             CV error = 0.033
+  PASS  fitcecoc/SVM  (multiclass SVM)   CV error = 0.020
+  PASS  TreeBagger    (bagging / RF)     CV error = 0.060
+  PASS  fitcensemble  (AdaBoostM2)       CV error = 0.027
+  PASS  fitcensemble  (RUSBoost)         CV error = 0.060
+  PASS  fitcnet       (neural network)   CV error = 0.053
+
+RESULT: environment is ready for the project.
