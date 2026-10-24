@@ -1,4 +1,4 @@
-# Ensemble Learning-Based Fault Diagnosis for Wireless Sensor Networks
+# wsn-fault-diagnosis
 
 🚧 **Work in progress** (Week 10 of 16)
 
